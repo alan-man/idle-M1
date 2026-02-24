@@ -1,0 +1,23 @@
+artifact_path: /home/alant/Documents/idle/mlruns/0/models/m-c4d4e913894845039f25350e92d1affe/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.12.3
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.10.0+cpu
+mlflow_version: 3.9.0
+model_id: m-c4d4e913894845039f25350e92d1affe
+model_size_bytes: 63205
+model_uuid: m-c4d4e913894845039f25350e92d1affe
+prompts: null
+run_id: 0bc0c51eead74d26a47a3a2fad0cf2f9
+utc_time_created: '2026-02-11 23:06:03.267515'
